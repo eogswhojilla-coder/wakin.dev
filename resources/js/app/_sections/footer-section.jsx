@@ -83,7 +83,7 @@ export default function FooterSection() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-neutral-400 text-xs mb-4">Contact</h3>
+            <h3 className="text-neutral-400 text-xs mb-4">Contacts</h3>
 
           
 
