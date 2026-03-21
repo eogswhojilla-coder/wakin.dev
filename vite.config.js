@@ -10,5 +10,4 @@ export default defineConfig({
         }),
         react(),
     ],
-    base: process.env.VITE_BASE_PATH || "/wakin.dev",
 });
