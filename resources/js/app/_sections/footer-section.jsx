@@ -85,13 +85,7 @@ export default function FooterSection() {
           <div>
             <h3 className="text-neutral-400 text-xs mb-4">Contact</h3>
 
-            <a href="mailto:wackyhojilla@email.com" className="block text-neutral-500 hover:text-purple-400 text-sm">
-              Email Me
-            </a>
-
-            <a href="tel:+639123456789" className="block text-neutral-500 hover:text-purple-400 text-sm">
-              Call Me
-            </a>
+          
 
             <div className="flex gap-2 mt-4">
               {socials.map((social) => (
