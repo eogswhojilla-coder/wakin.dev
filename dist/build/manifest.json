@@ -1,0 +1,178 @@
+{
+  "resources/js/app.jsx": {
+    "file": "assets/app-DEE3zINd.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/app/_sections/about-section.jsx",
+      "resources/js/app/_sections/carousel-section.jsx",
+      "resources/js/app/_sections/contact-section.jsx",
+      "resources/js/app/_sections/dot-grid-section.jsx",
+      "resources/js/app/_sections/experience-section.jsx",
+      "resources/js/app/_sections/floating-line-section.jsx",
+      "resources/js/app/_sections/footer-section.jsx",
+      "resources/js/app/_sections/header-section.jsx",
+      "resources/js/app/_sections/hero-section.jsx",
+      "resources/js/app/_sections/orb-section.jsx",
+      "resources/js/app/_sections/progress-scroll-section.jsx",
+      "resources/js/app/_sections/project-section.jsx",
+      "resources/js/app/_sections/shape-grid-section.jsx",
+      "resources/js/app/_sections/splash-screen-section.jsx",
+      "resources/js/app/page.jsx"
+    ],
+    "css": [
+      "assets/app-B3z9rxza.css"
+    ]
+  },
+  "resources/js/app/_sections/about-section.jsx": {
+    "file": "assets/about-section-fw_Km_Ix.js",
+    "name": "about-section",
+    "src": "resources/js/app/_sections/about-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/carousel-section.jsx": {
+    "file": "assets/carousel-section-vb73QDSN.js",
+    "name": "carousel-section",
+    "src": "resources/js/app/_sections/carousel-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/contact-section.jsx": {
+    "file": "assets/contact-section-BS8Iemot.js",
+    "name": "contact-section",
+    "src": "resources/js/app/_sections/contact-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/dot-grid-section.jsx": {
+    "file": "assets/dot-grid-section-XoGe8kZK.js",
+    "name": "dot-grid-section",
+    "src": "resources/js/app/_sections/dot-grid-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/experience-section.jsx": {
+    "file": "assets/experience-section-DmDI6VCx.js",
+    "name": "experience-section",
+    "src": "resources/js/app/_sections/experience-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/_sections/shape-grid-section.jsx"
+    ]
+  },
+  "resources/js/app/_sections/floating-line-section.jsx": {
+    "file": "assets/floating-line-section-B2nLPZy5.js",
+    "name": "floating-line-section",
+    "src": "resources/js/app/_sections/floating-line-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/footer-section.jsx": {
+    "file": "assets/footer-section-BauIoE51.js",
+    "name": "footer-section",
+    "src": "resources/js/app/_sections/footer-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/header-section.jsx": {
+    "file": "assets/header-section-D1zBRGWy.js",
+    "name": "header-section",
+    "src": "resources/js/app/_sections/header-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/hero-section.jsx": {
+    "file": "assets/hero-section-BEb4bnMQ.js",
+    "name": "hero-section",
+    "src": "resources/js/app/_sections/hero-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/orb-section.jsx": {
+    "file": "assets/orb-section-BGEW9_bB.js",
+    "name": "orb-section",
+    "src": "resources/js/app/_sections/orb-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/progress-scroll-section.jsx": {
+    "file": "assets/progress-scroll-section-CLmBTZhT.js",
+    "name": "progress-scroll-section",
+    "src": "resources/js/app/_sections/progress-scroll-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/project-section.jsx": {
+    "file": "assets/project-section-DV9cTT-Y.js",
+    "name": "project-section",
+    "src": "resources/js/app/_sections/project-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/_sections/dot-grid-section.jsx"
+    ]
+  },
+  "resources/js/app/_sections/shape-grid-section.jsx": {
+    "file": "assets/shape-grid-section-zJACqg0I.js",
+    "name": "shape-grid-section",
+    "src": "resources/js/app/_sections/shape-grid-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/_sections/splash-screen-section.jsx": {
+    "file": "assets/splash-screen-section-C0WCKGQW.js",
+    "name": "splash-screen-section",
+    "src": "resources/js/app/_sections/splash-screen-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/page.jsx": {
+    "file": "assets/page-QaQyycLi.js",
+    "name": "page",
+    "src": "resources/js/app/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/_sections/header-section.jsx",
+      "resources/js/app/_sections/hero-section.jsx",
+      "resources/js/app/_sections/floating-line-section.jsx",
+      "resources/js/app/_sections/about-section.jsx",
+      "resources/js/app/_sections/project-section.jsx",
+      "resources/js/app/_sections/experience-section.jsx",
+      "resources/js/app/_sections/contact-section.jsx",
+      "resources/js/app/_sections/footer-section.jsx",
+      "resources/js/app/_sections/carousel-section.jsx",
+      "resources/js/app/_sections/progress-scroll-section.jsx",
+      "resources/js/app/_sections/splash-screen-section.jsx",
+      "resources/js/app/_sections/dot-grid-section.jsx",
+      "resources/js/app/_sections/shape-grid-section.jsx"
+    ]
+  }
+}
