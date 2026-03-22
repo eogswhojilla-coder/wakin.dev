@@ -12,19 +12,19 @@ const projects = [
         link: "https://scc-digitized-barangay.online/",
     },
     {
-        title: "ShopEase",
+        title: "EmpireOne Unified System",
         description:
-            "A full-featured e-commerce platform with cart, checkout, and admin dashboard.",
-        tags: ["Next.js", "Stripe", "Tailwind CSS"],
+            "Designed and developed a unified enterprise system for EmpireOne, enabling centralized data management, service integration, and a scalable admin dashboard for operational efficiency.",
+        tags: ["React", "Tailwind CSS", "REST API", "System Architecture"],
         accent: "#3b82f6",
         bg: "#1d4ed8",
         link: null,
     },
     {
-        title: "AuraUI",
+        title: "EmpireOne Ticketing System",
         description:
-            "An open-source component library built with React and TypeScript.",
-        tags: ["TypeScript", "Storybook", "CSS"],
+            "A ticket management system I developed for EmpireOne to handle support requests, track issues, and streamline communication between users and administrators.",
+        tags: ["React", "Laravel", "Tailwind CSS"],
         accent: "#14b8a6",
         bg: "#0f766e",
         link: null,
@@ -39,10 +39,10 @@ const projects = [
         link: null,
     },
     {
-        title: "WeatherLens",
+        title: "GymSync",
         description:
-            "A beautiful weather dashboard with hourly forecasts and location search.",
-        tags: ["React", "OpenAPI", "Chart.js"],
+            "A comprehensive gym management system that streamlines member tracking, attendance monitoring, equipment management, and announcements in one modern dashboard.",
+        tags: ["React", "Laravel", "MySQL", "Tailwind"],
         accent: "#3b82f6",
         bg: "#1d4ed8",
         link: null,
@@ -68,7 +68,6 @@ export default function ProjectSection() {
 
     return (
         <section className="relative w-full h-screen bg-[#09090b] overflow-hidden selection:bg-purple-500/30">
-
             {/* DotGrid background */}
             <div className="absolute inset-0 z-0">
                 <DotGrid
@@ -86,7 +85,6 @@ export default function ProjectSection() {
 
             {/* Content */}
             <div className="relative z-10 w-full h-full px-[5%] pt-16 pb-10 flex flex-col font-sans">
-
                 {/* Header */}
                 <div className="mb-8 flex-shrink-0">
                     <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-medium uppercase tracking-widest">
@@ -100,7 +98,8 @@ export default function ProjectSection() {
                         </span>
                     </h2>
                     <p className="text-neutral-400 text-base mt-3 max-w-md leading-relaxed">
-                        A collection of things I've built — from side projects to client work.
+                        A collection of things I've built — from side projects
+                        to client work.
                     </p>
                 </div>
 
@@ -111,12 +110,18 @@ export default function ProjectSection() {
                             key={project.title}
                             onClick={() =>
                                 project.link &&
-                                window.open(project.link, "_blank", "noopener,noreferrer")
+                                window.open(
+                                    project.link,
+                                    "_blank",
+                                    "noopener,noreferrer",
+                                )
                             }
                             className="group relative bg-neutral-900/70 backdrop-blur-sm border border-white/5 rounded-2xl overflow-hidden hover:-translate-y-1.5 hover:border-purple-500/30 hover:shadow-[0_0_36px_rgba(168,85,247,0.14)] transition-all duration-500"
                             style={{
                                 opacity: visible ? 1 : 0,
-                                transform: visible ? "translateY(0)" : "translateY(20px)",
+                                transform: visible
+                                    ? "translateY(0)"
+                                    : "translateY(20px)",
                                 transition: `opacity 0.5s ease ${i * 0.07}s, transform 0.5s ease ${i * 0.07}s`,
                                 cursor: project.link ? "pointer" : "default",
                             }}
@@ -138,11 +143,15 @@ export default function ProjectSection() {
                             >
                                 <div
                                     className="absolute w-24 h-24 rounded-full -top-6 -right-6 blur-xl"
-                                    style={{ background: `${project.accent}28` }}
+                                    style={{
+                                        background: `${project.accent}28`,
+                                    }}
                                 />
                                 <div
                                     className="absolute w-16 h-16 rounded-full -bottom-4 left-4 blur-lg"
-                                    style={{ background: `${project.accent}18` }}
+                                    style={{
+                                        background: `${project.accent}18`,
+                                    }}
                                 />
 
                                 <span
@@ -198,7 +207,9 @@ export default function ProjectSection() {
                                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                                                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
                                             </span>
-                                            <span className="text-[10px] font-medium text-emerald-400">Live</span>
+                                            <span className="text-[10px] font-medium text-emerald-400">
+                                                Live
+                                            </span>
                                         </span>
                                     )}
                                 </div>
@@ -241,7 +252,6 @@ export default function ProjectSection() {
                         </svg>
                     </button>
                 </div>
-
             </div>
         </section>
     );
