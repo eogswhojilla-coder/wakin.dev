@@ -323,8 +323,8 @@ export default function HeroSection() {
           </div>
 
           <h1 className="hero-name">
-            Hello, I'm
-            <span className="mt-2 gradient-line">Wacky D. Hojilla</span>
+           
+            <span className="gradient-line">Wacky D. Hojilla</span>
           </h1>
 
           <p className="hero-role">
